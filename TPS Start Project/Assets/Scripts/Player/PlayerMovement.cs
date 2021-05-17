@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
     private PlayerInput playerInput;
     private Animator animator;
 
-    private Camera followCam;
+    private Camera followCam;//시네머신 사용함으로써 플레이어를 따라오는 카메라 설정
 
     public float speed = 6f;
     public float jumpVelocity = 20f;

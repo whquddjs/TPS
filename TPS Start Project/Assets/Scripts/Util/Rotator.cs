@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
-
+/*
+ * 아이템 회전
+ */
 public class Rotator : MonoBehaviour
 {
     public float rotationSpeed = 60f;

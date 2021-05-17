@@ -6,9 +6,9 @@ public class Crosshair : MonoBehaviour
     public Image aimPointReticle;
     public Image hitPointReticle;
 
-    public float smoothTime = 0.2f;
+    public float smoothTime = 0.2f;//지연시간
     
-    private Camera screenCamera;
+    private Camera screenCamera;//카메라가 바라보는 방향으로 총을 쏠 것임
     private RectTransform crossHairRectTransform;
 
     private Vector3 currentHitPointVelocity;
